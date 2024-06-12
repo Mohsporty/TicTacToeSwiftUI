@@ -12,6 +12,7 @@
 		E132C4BA2C12096F001F9B45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E132C4B92C12096F001F9B45 /* Assets.xcassets */; };
 		E132C4BD2C120970001F9B45 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E132C4BC2C120970001F9B45 /* Preview Assets.xcassets */; };
 		E132C4C42C14B046001F9B45 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E132C4C32C14B046001F9B45 /* Cell.swift */; };
+		E132C4C62C14B7A8001F9B45 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E132C4C52C14B7A8001F9B45 /* GameState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		E132C4B92C12096F001F9B45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E132C4BC2C120970001F9B45 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E132C4C32C14B046001F9B45 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		E132C4C52C14B7A8001F9B45 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				E132C4B52C12096C001F9B45 /* TicTacToeSwiftUIApp.swift */,
 				E132C4B72C12096C001F9B45 /* ContentView.swift */,
+				E132C4C52C14B7A8001F9B45 /* GameState.swift */,
 				E132C4C32C14B046001F9B45 /* Cell.swift */,
 				E132C4B92C12096F001F9B45 /* Assets.xcassets */,
 				E132C4BB2C120970001F9B45 /* Preview Content */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E132C4B82C12096C001F9B45 /* ContentView.swift in Sources */,
+				E132C4C62C14B7A8001F9B45 /* GameState.swift in Sources */,
 				E132C4B62C12096C001F9B45 /* TicTacToeSwiftUIApp.swift in Sources */,
 				E132C4C42C14B046001F9B45 /* Cell.swift in Sources */,
 			);

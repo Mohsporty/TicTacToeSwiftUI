@@ -42,8 +42,20 @@ struct ContentView: View {
         }
         .background(Color.black)
         .padding()
+        .alert(isPresented: $gameState.showAlert )
+        {
+            Alert(
+                title: Text( gameState.alertMessage),
+                  dismissButton: .default(Text("Okay"))
+                {
+                    gameState.resetBoard()
+                }
+            )
+            
+        }
     }
 }
+               
 
 #Preview {
     ContentView()
